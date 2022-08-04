@@ -5,6 +5,10 @@ import java.awt.Container;
 import java.awt.Cursor;
 import java.awt.Font;
 import java.awt.font.TextAttribute;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseListener;
 import java.awt.event.ActionEvent; 
@@ -133,18 +137,37 @@ public class UserLogIn extends JFrame {
 		
 		btnUserLog.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				String username = "arif_sikdar";
-				String pass = "alhamdulillah1,2";
-						if(tf.getText().equals(username) && pf.getText().equals(pass)) {
-							AdminSection newFrame = new AdminSection();
+				if(tf.getText().isEmpty()) {
+					JOptionPane.showMessageDialog(null, "You have not entered your email!");
+				}
+				else if(pf.getText().isEmpty()) {
+					JOptionPane.showMessageDialog(null, "You have not entered your password!");
+				}
+				else {
+					try {
+						Class.forName("com.mysql.cj.jdbc.Driver");
+						Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ftm","root", "");
+						
+						String userName = tf.getText();
+						String pass = pf.getText();
+						
+						Statement stn = cn.createStatement();
+						
+						String sql = "select * from userinfo where UserName='"+userName+"'and Password='"+pass+"'";
+						
+						ResultSet rs = stn.executeQuery(sql);
+						if(rs.next()) {
+							AppHome newFrame = new AppHome();
 							dispose();
 							newFrame.setVisible(true);
 						}
 						else {
-							JOptionPane.showMessageDialog(null, "You have entered wrong Password or Email!");
-							tf.setText("");
-							pf.setText("");
+							JOptionPane.showMessageDialog(null, "Wrong email or password!");
 						}
+					}catch(Exception e1) {
+						e1.printStackTrace();
+					}
+				}
 			}
 		});
 		

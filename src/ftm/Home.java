@@ -129,6 +129,22 @@ public class Home extends JFrame {
 			}
 		});
 		
+		btnLogUser.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				UserLogIn newFrame = new UserLogIn();
+				dispose();
+				newFrame.setVisible(true);
+			}
+		});
+		
+		btnReg.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				UserReg newFrame = new UserReg();
+				dispose();
+				newFrame.setVisible(true);
+			}
+		});
+		
 	}
 
 	public static void main(String[] args) {
