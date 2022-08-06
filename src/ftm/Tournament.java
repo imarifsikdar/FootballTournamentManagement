@@ -46,8 +46,8 @@ public class Tournament extends JFrame {
 		lbl1.setForeground(Color.WHITE);
 		c.add(lbl1);
 		
-		lbl2 = new JLabel("AVAILABLE SOON!");
-		lbl2.setBounds(85,200,205,24);
+		lbl2 = new JLabel("MANAGED BY ADMIN SECTION");
+		lbl2.setBounds(15,200,330,24);
 		lbl2.setFont(fnt1);
 		lbl2.setForeground(Color.WHITE);
 		c.add(lbl2);

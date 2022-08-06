@@ -181,7 +181,7 @@ public class AppHome extends JFrame {
 		
 		lbl7.addMouseListener(new MouseListener() {
 			public void mouseClicked(MouseEvent e) {
-				TeamInfo newFrame3 = new TeamInfo();
+				TeamList newFrame3 = new TeamList();
 				dispose();
 				newFrame3.setVisible(true);
 			}

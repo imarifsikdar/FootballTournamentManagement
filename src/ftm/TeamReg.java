@@ -106,12 +106,12 @@ public class TeamReg extends JFrame {
 		
 		lbl6 = new JLabel("Player 1: ");
 		lbl6.setForeground(Color.WHITE);
-		lbl6.setBounds(34,249,75,17);
+		lbl6.setBounds(34,185,60,17);
 		lbl6.setFont(fnt2);
 		c.add(lbl6);
 		
 		tfP1 = new JTextField();
-		tfP1.setBounds(120,249,221,17);
+		tfP1.setBounds(99,185,230,17);
 		tfP1.setForeground(Color.WHITE);
 		tfP1.setFont(fnt2);
 		tfP1.setBackground(Color.BLACK);
@@ -120,12 +120,12 @@ public class TeamReg extends JFrame {
 		
 		lbl7 = new JLabel("Player 2: ");
 		lbl7.setForeground(Color.WHITE);
-		lbl7.setBounds(34,291,80,17);
+		lbl7.setBounds(34,214,64,17);
 		lbl7.setFont(fnt2);
 		c.add(lbl7);
 		
 		tfP2 = new JTextField();
-		tfP2.setBounds(120,291,221,17);
+		tfP2.setBounds(99,214,230,17);
 		tfP2.setForeground(Color.WHITE);
 		tfP2.setFont(fnt2);
 		tfP2.setBackground(Color.BLACK);
@@ -134,12 +134,12 @@ public class TeamReg extends JFrame {
 		
 		lbl8 = new JLabel("Player 3: ");
 		lbl8.setForeground(Color.WHITE);
-		lbl8.setBounds(34,333,75,17);
+		lbl8.setBounds(34,243,64,17);
 		lbl8.setFont(fnt2);
 		c.add(lbl8);
 		
 		tfP3 = new JTextField();
-		tfP3.setBounds(120,333,221,17);
+		tfP3.setBounds(99,243,230,17);
 		tfP3.setForeground(Color.WHITE);
 		tfP3.setFont(fnt2);
 		tfP3.setBackground(Color.BLACK);
@@ -148,12 +148,12 @@ public class TeamReg extends JFrame {
 		
 		lbl9 = new JLabel("Player 4: ");
 		lbl9.setForeground(Color.WHITE);
-		lbl9.setBounds(34,333,75,17);
+		lbl9.setBounds(34,272,64,17);
 		lbl9.setFont(fnt2);
 		c.add(lbl9);
 		
 		tfP4 = new JTextField();
-		tfP4.setBounds(120,333,221,17);
+		tfP4.setBounds(99,272,230,17);
 		tfP4.setForeground(Color.WHITE);
 		tfP4.setFont(fnt2);
 		tfP4.setBackground(Color.BLACK);
@@ -162,12 +162,12 @@ public class TeamReg extends JFrame {
 		
 		lbl10 = new JLabel("Player 5: ");
 		lbl10.setForeground(Color.WHITE);
-		lbl10.setBounds(34,333,75,17);
+		lbl10.setBounds(34,301,64,17);
 		lbl10.setFont(fnt2);
 		c.add(lbl10);
 		
 		tfP5 = new JTextField();
-		tfP5.setBounds(120,333,221,17);
+		tfP5.setBounds(99,301,230,17);
 		tfP5.setForeground(Color.WHITE);
 		tfP5.setFont(fnt2);
 		tfP5.setBackground(Color.BLACK);
@@ -176,12 +176,12 @@ public class TeamReg extends JFrame {
 		
 		lbl11 = new JLabel("Player 6: ");
 		lbl11.setForeground(Color.WHITE);
-		lbl11.setBounds(34,333,75,17);
+		lbl11.setBounds(34,330,64,17);
 		lbl11.setFont(fnt2);
 		c.add(lbl11);
 		
 		tfP6 = new JTextField();
-		tfP6.setBounds(120,333,221,17);
+		tfP6.setBounds(99,330,230,17);
 		tfP6.setForeground(Color.WHITE);
 		tfP6.setFont(fnt2);
 		tfP6.setBackground(Color.BLACK);
@@ -190,12 +190,12 @@ public class TeamReg extends JFrame {
 		
 		lbl12 = new JLabel("Player 7: ");
 		lbl12.setForeground(Color.WHITE);
-		lbl12.setBounds(34,333,75,17);
+		lbl12.setBounds(34,359,64,17);
 		lbl12.setFont(fnt2);
 		c.add(lbl12);
 		
 		tfP7 = new JTextField();
-		tfP7.setBounds(120,333,221,17);
+		tfP7.setBounds(99,359,230,17);
 		tfP7.setForeground(Color.WHITE);
 		tfP7.setFont(fnt2);
 		tfP7.setBackground(Color.BLACK);
@@ -204,12 +204,12 @@ public class TeamReg extends JFrame {
 		
 		lbl13 = new JLabel("Player 8: ");
 		lbl13.setForeground(Color.WHITE);
-		lbl13.setBounds(34,333,75,17);
+		lbl13.setBounds(34,382,64,17);
 		lbl13.setFont(fnt2);
 		c.add(lbl13);
 		
 		tfP8 = new JTextField();
-		tfP8.setBounds(120,333,221,17);
+		tfP8.setBounds(99,382,230,17);
 		tfP8.setForeground(Color.WHITE);
 		tfP8.setFont(fnt2);
 		tfP8.setBackground(Color.BLACK);
@@ -218,12 +218,12 @@ public class TeamReg extends JFrame {
 		
 		lbl14 = new JLabel("Player 9: ");
 		lbl14.setForeground(Color.WHITE);
-		lbl14.setBounds(34,333,75,17);
+		lbl14.setBounds(34,407,64,17);
 		lbl14.setFont(fnt2);
 		c.add(lbl14);
 		
 		tfP9 = new JTextField();
-		tfP9.setBounds(120,333,221,17);
+		tfP9.setBounds(99,407,230,17);
 		tfP9.setForeground(Color.WHITE);
 		tfP9.setFont(fnt2);
 		tfP9.setBackground(Color.BLACK);
@@ -232,12 +232,12 @@ public class TeamReg extends JFrame {
 		
 		lbl15 = new JLabel("Player 10: ");
 		lbl15.setForeground(Color.WHITE);
-		lbl15.setBounds(34,333,75,17);
+		lbl15.setBounds(34,436,70,17);
 		lbl15.setFont(fnt2);
 		c.add(lbl15);
 		
 		tfP10 = new JTextField();
-		tfP10.setBounds(120,333,221,17);
+		tfP10.setBounds(105,436,224,17);
 		tfP10.setForeground(Color.WHITE);
 		tfP10.setFont(fnt2);
 		tfP10.setBackground(Color.BLACK);
@@ -246,12 +246,12 @@ public class TeamReg extends JFrame {
 		
 		lbl16 = new JLabel("Player 11: ");
 		lbl16.setForeground(Color.WHITE);
-		lbl16.setBounds(34,333,75,17);
+		lbl16.setBounds(34,465,70,17);
 		lbl16.setFont(fnt2);
 		c.add(lbl16);
 		
 		tfP11 = new JTextField();
-		tfP11.setBounds(120,333,221,17);
+		tfP11.setBounds(105,465,224,17);
 		tfP11.setForeground(Color.WHITE);
 		tfP11.setFont(fnt2);
 		tfP11.setBackground(Color.BLACK);
@@ -259,7 +259,7 @@ public class TeamReg extends JFrame {
 		c.add(tfP11);
 		
 		btnReg = new JButton("Sign Up");
-		btnReg.setBounds(104,402,166,31);
+		btnReg.setBounds(104,505,166,31);
 		btnReg.setFocusPainted(false);
 		btnReg.setCursor(cursor);
 		btnReg.setFont(fnt3);
@@ -315,24 +315,24 @@ public class TeamReg extends JFrame {
 						Class.forName("com.mysql.cj.jdbc.Driver");
 						Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/ftm","root", "");
 						
-						String query = "INSERT INTO `teaminfo`(`TeamName`, `P1`, `P2`, `P3`, `P4`, `P5`, `P6`, `P7`, `P8`, `P9`, `P10`, `P1`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
+						String query = "INSERT INTO `teaminfo`(`TeamName`, `P1`, `P2`, `P3`, `P4`, `P5`, `P6`, `P7`, `P8`, `P9`, `P10`, `P11`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)";
 						
 						PreparedStatement ps = cn.prepareStatement(query);
 						ps.setString(1 , tfTName.getText());
                         ps.setString(2, tfP1.getText());
                         ps.setString(3, tfP2.getText());
                         ps.setString(4, tfP3.getText());
-                        ps.setString(2, tfP4.getText());
-                        ps.setString(3, tfP5.getText());
-                        ps.setString(4, tfP6.getText());
-                        ps.setString(3, tfP7.getText());
-                        ps.setString(4, tfP8.getText());
-                        ps.setString(2, tfP9.getText());
-                        ps.setString(3, tfP10.getText());
-                        ps.setString(4, tfP11.getText());
+                        ps.setString(5, tfP4.getText());
+                        ps.setString(6, tfP5.getText());
+                        ps.setString(7, tfP6.getText());
+                        ps.setString(8, tfP7.getText());
+                        ps.setString(9, tfP8.getText());
+                        ps.setString(10, tfP9.getText());
+                        ps.setString(11, tfP10.getText());
+                        ps.setString(12, tfP11.getText());
                         
                         ps.executeUpdate();
-                        JOptionPane.showConfirmDialog(null, "You have Successfully Registered your Team");
+                        JOptionPane.showMessageDialog(null, "You have Successfully Registered your Team");
                         ps.close();
                         cn.close();
 						
@@ -343,9 +343,75 @@ public class TeamReg extends JFrame {
 			}
 		});
 		
-		lbl7.addMouseListener(new MouseListener() {
+		lbl1.addMouseListener(new MouseListener() {
 			public void mouseClicked(MouseEvent e) {
-				UserLogIn newFrame1 = new UserLogIn();
+				AppHome newFrame1 = new AppHome();
+				dispose();
+				newFrame1.setVisible(true);
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+		});
+		
+		lbl2.addMouseListener(new MouseListener() {
+			public void mouseClicked(MouseEvent e) {
+				Tournament newFrame1 = new Tournament();
+				dispose();
+				newFrame1.setVisible(true);
+			}
+
+			@Override
+			public void mousePressed(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseReleased(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void mouseExited(MouseEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+		});
+		
+		lbl3.addMouseListener(new MouseListener() {
+			public void mouseClicked(MouseEvent e) {
+				TeamList newFrame1 = new TeamList();
 				dispose();
 				newFrame1.setVisible(true);
 			}

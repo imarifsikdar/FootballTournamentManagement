@@ -117,7 +117,7 @@ public class AdminLogIn extends JFrame {
 		btnAdLog.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				String username = "arif_sikdar";
-				String pass = "alhamdulillah1,2";
+				String pass = "arif123";
 						if(tf.getText().equals(username) && pf.getText().equals(pass)) {
 							AdminSection newFrame = new AdminSection();
 							dispose();
